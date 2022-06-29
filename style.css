@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700;900&display=swap');
+body{
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.judul{
+    height: 90px;
+    width: 100%;
+    background-image: url(bg.jpg);
+}
+
+.navbar{
+    height: 40px;
+    background-image: url(bg.jpg);
+    display: none;
+}
+
+.judul #teks-judul{
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.nav-link:hover{
+    color: white;
+    text-shadow: 0.2px 0.2px 5px white;
+}
+
+.navbar-nav{
+    margin:0 auto;
+}
+
+.container{
+    width: 100%;
+}
+
+.jumbotron{
+    width: 100%;
+
+    height:85vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(karst.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#pesanTiket{
+    margin-left: 0.5vw;
+    height: 8vh;
+    background-color: rgb(156, 6, 6);
+    transition: background 0.7s;
+}
+
+#pesanTiket:hover{
+    background-color: red;
+}
+
+.jumbotron .row{
+    display: flex;
+    height: 90%;
+    align-items: center;
+    padding-left: 10vh;
+    padding-bottom: 5vh;
+    padding-top: 10vh;
+}
+
+.jumbotron .row h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.jumbotron .row p{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    opacity: 60%;
+    padding-top: 5px;
+    text-indent: 5px;
+    font-weight: 400;
+}
+
+.card p{
+    color: black;
+}
+
+h6,h9,h7,h10{
+    margin-left: 1.5vw;
+    font-size: 50px;
+}
+
+h6{
+    padding-top: 8vh;
+    margin-bottom: -2vh;
+}
+
+.content h5{
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+}
+
+.content{
+    padding-top: 25px;
+    margin-bottom: 10vh;
+    width: 100%;
+    margin-left: 1.5vw;
+    padding-right: 3vw;
+}
+
+.content p{
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+.visit{
+    height: 95vh;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.visited{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(museum.jpg);
+    height: 85%;
+    margin-left: 2vw;
+    background-position:center;
+    margin-right: 3.6vh;
+    margin-top: 0.5vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.jamBuka{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 2.8em;
+    line-height: 1em;
+    font-weight: 600 ;
+}
+
+.visited h8 span{
+    font-size: 0.6em;
+    opacity: 80%;
+}
+
+#tombolVisit{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#tombolVisit .btn{
+    margin:auto 0.9vh;
+    padding: 5px 20px;
+    font-size: 1.2em;
+}
+
+.btn-outline-danger{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.btn-outline-danger:hover{
+    background-color: rgb(156, 6, 6);
+}
+
+#galeriy{
+    margin-left:1vw;
+    padding-right:1.4vw;
+    width: 100%;
+    margin-bottom:7vh;
+}
+
+h10{
+    color: whitesmoke;
+}
+
+.owl-carousel{
+    margin-top: 2vh;
+    width: 70%;
+    padding-left: 7vh;
+    padding-right: 4vh;
+}
+
+footer{
+    background-image:url(bg.jpg);
+    margin-top: 2vh;
+}
+
+footer a{
+    padding:1vh;
+}
+
+footer a:link{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    text-shadow: 0.3px 0.3px 15px rgb(255, 255, 255);
+}
+
+a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+.containerx{
+    background-color: rgb(122, 23, 23);
+    width: 100%;
+}
+
+.containers{
+    padding: 80px 0;
+    width: 100%;
+}
+
+.swal-button{
+    background-color: black;
+    color: white;
+}
+
+.swal-button:hover{
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+.swal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+#aboutUs h12{
+    margin-left: 0.5vw;
+    font-size: 50px;
+}
+
+#aboutUs p{
+    margin-left: 0.5vw;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+#aboutUs{
+    margin-bottom: 12vh;
+    margin-top: 10vh;
+}
+
+#aboutes{
+    color:rgb(156, 6, 6);
+    font-weight:bolder;
+    font-size: larger;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+
+#aboutes:hover{
+    color: rgb(44, 44, 44);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+  justify-content: center;
+  text-align : center;
+}
+
+.topnav a {
+  display: inline-block;
+  list-style-type :none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.activex {
+  background-color: rgba(156, 6, 6,0.3);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(148, 0, 0);
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #000;
+    justify-content: center;
+    text-align : center;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    list-style-type :none;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: #CD2400;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(230, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(156, 6, 6);
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(143, 0, 0);
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .card-img{
+      overflow: hidden;
+  }
+
+  .card-img img{
+      transition: all 1s ease;
+  }
+
+  .card-img:hover img{
+      transform: scale(1.3);
+  }
+
+  .card{
+      height: 90vh;
+  }
+
+  .card-img{
+      height: 50vh;
+  }
+
+  

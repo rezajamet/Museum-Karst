@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="styletiket.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Order Tiket</title>
+</head>
+
+<body>
+    <div style="margin-top: 1em; margin-bottom: 1em;" class="container">
+        <header>Order Tiket Museum Karst</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Data Diri</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nama Lengkap</label>
+                            <input type="text" placeholder="Masukkan Nama Lengkap" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Tanggal Lahir</label>
+                            <input type="date" placeholder="Masukkan Tanggal Lahir" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nomor Telepon</label>
+                            <input type="number" placeholder="Masukkan Nomor Telepon" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nomor KTP</label>
+                            <input type="number" placeholder="Masukkan Nomor KTP" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Alamat</label>
+                            <input type="text" placeholder="Alamat Sesuai KTP" required>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Booking Tiket</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Jumlah Tiket</label>
+                            <input type="number" placeholder="Jumlah Tiket Yang diPesan" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Tanggal Yang Dibooking</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Masukkan Email" required>
+                        </div>
+                    </div>
+
+                    <button onclick="submited()" class="sumbit">
+                        <span class="btnText">Submit</span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+        function submited() { swal("Booking Tiket Sukses"); }
+    </script>
+
+</body>
+
+</html>

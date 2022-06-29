@@ -1,0 +1,334 @@
+@media (min-width: 320px) and (max-width: 767px)
+{
+    html{
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .judul{
+        height: 60px;
+    }
+
+    .judul #teks-judul{
+        font-size: 2.5em;
+    }
+
+    .jumbotron{
+        height: 80vh;
+    }
+
+    .jumbotron .row h1{
+        font-size: 2.5em;
+        line-height: 1.1em;
+        margin-left: -1em;
+        margin-top: 1.2em;
+    }
+
+    .jumbotron .row p{
+        font-size: 0.65em;
+        line-height: 1em;
+        margin-left: -4em;
+        margin-top: 1em;
+    }
+
+    .jumbotron #pesanTiket{
+        margin-left:-2.2em;
+        height: 6.5vh;
+    }
+
+    .visit{
+        height: 60vh;
+        width: 100%;
+        padding-top: 1.5em;
+    }
+
+    .visit-bg{
+        background-color: rgb(230, 230, 230);
+        margin-top: -30px;
+        height: 75vh;
+    }
+
+    h6,h7,h6,h9,h10,h11{
+        margin-left: 1em;
+        font-size: 1.3em;
+        font-weight: 600;
+    }
+
+    h6{
+        margin-top:-0.5em;
+        margin-bottom: -1.3em;
+    }
+
+    .visited{
+        margin-left: 4.5vw;
+        margin-right: 4.5vw;
+        height: 60vh;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    #tombolVisit .btn{
+        margin:auto 0.7vh;
+        margin-top:-0.3em;
+        padding: 4px 7px;
+        font-size: 0.8em;
+    }
+
+    .jamBuka{
+        padding-top: 4em ;
+        font-size: 1.8em;
+        text-shadow:0.6px 0.6px 5px rgba(158, 0, 0, 0.4);
+    }
+
+    .content{
+        margin: 0 auto;
+        padding-left: 5vw;
+        margin-bottom: 5vh;
+        padding-right: 4.7vw;
+    }
+
+    .content p{
+        font-size: 0.8em;
+        margin-left: 0.2em;
+        line-height: 1.6em;
+        margin-bottom: 1.5em;
+    }
+
+    .card-title{
+        line-height: 1.4em;
+    }
+
+    .card{
+        height: 70vh;
+    }
+
+    .card-img{
+        height: 40vh;
+    }
+
+    .card-title{
+        font-size: 1em;
+        margin-left:0.15em;
+        font-weight: 0.5em;
+    }
+
+    .owl-carousel{
+        padding-right: 1em;
+        padding-left: 1em;
+        margin-top: 0.5em;
+        margin-bottom: -3vh;
+    }
+
+    .containers{
+        padding: 40px 0;
+    }
+
+    .containerx{
+        padding-top: 0.5vh;
+    }
+
+    .containers a{
+        font-size: 0.7em;
+    }
+
+    .footy{
+        font-size: 0.6em;
+    }
+
+    #galeriy{
+        margin: 0 auto;
+        padding-left: 2vw;
+        margin-bottom: 4vh;
+    }
+
+    #pesanTiket{
+        margin-left: -14vw;
+        height: 5vh;
+        background-color: rgb(156, 6, 6);
+    }
+
+    .topnav a, .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    #aboutUs{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    #aboutUs h12{
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    #aboutUs p{
+        margin-top: 0.5em;
+        font-size: 0.85em;
+        line-height: 1.8em;
+    }
+
+    #fotoAbout{
+        margin-top: -12vh;
+        width: 80%;
+        height: 80%;
+        margin-left: 7.5vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    html{
+        overflow-x: hidden;
+    }
+
+    .judul{
+        height: 100px;
+    }
+
+    .judul #teks-judul{
+        font-size: 4em;
+    }
+
+    .jumbotron{
+        height: 50vh;
+    }
+
+    .jumbotron .row h1{
+        margin-left: -1em;
+        font-size: 3.5em;
+        line-height: 1.2em;
+    }
+
+    .jumbotron .row p{
+        font-size: 1em;
+        line-height: 0.5em;
+        margin-left: -3.5em;
+    }
+
+    .jumbotron #pesanTiket{
+        margin-left: -6.5vw;
+        height: 5vh;
+    }
+
+    .visit{
+        height: 45vh;
+        width: 100%;
+        margin-top: 1.7em;
+    }
+
+    .visit .jamBuka{
+        padding-top: 11vh;
+    }
+
+    h6,h7,h6,h9,h10,h11{
+        margin-left: 0.8em;
+        font-size: 2.8em;
+        margin-bottom: 1.4em;
+    }
+
+    h6{
+        margin-top: -1.2em;
+        margin-bottom: -0.4em;
+    }
+
+    .visited{
+        margin-left: 4.5vw;
+        margin-right: 4.5vw;
+        background-size: cover;
+    }
+
+    .jamBuka{
+        padding-top: 3.8em ;
+        font-size: 3em;
+    }
+
+    .content{
+        margin-bottom: 2.8vh;
+    }
+
+    .content p{
+        font-size: 0.7em;
+        margin-left: 0em;
+        line-height: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .card{
+        height: 35vh;
+    }
+
+    .card-title{
+        font-size: 0.8em;
+    }
+
+    .card-img{
+        height: 10vh;
+    }
+
+    .owl-carousel{
+        padding-right: 1em;
+        padding-left: 1em;
+        margin-top: 0.5em;
+        margin-bottom: -4vh;
+    }
+
+    .containers a{
+        font-size: 0.7em;
+    }
+
+    .footy{
+        font-size: 0.6em;
+    }
+
+    #galeriy{
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    #pesanTiket{
+        margin-left: -6vw;
+        margin-top: 0.4vh;
+        height: 4vh;
+        background-color: rgb(156, 6, 6);
+    }
+
+    #fotoAbout{
+        margin-top: -12vh;
+        width: 60%;
+        height: 60%;
+        margin-left: 15vw;
+    }
+
+    #aboutUs{
+        padding-top:-10vh;
+    }
+
+}
